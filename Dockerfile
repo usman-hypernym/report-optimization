@@ -19,5 +19,3 @@ RUN pip install -r requirements.txt
  
 COPY . .
  
-RUN cp env-stag .env
-RUN cat .env
